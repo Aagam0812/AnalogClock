@@ -1,0 +1,90 @@
+body {
+    background:#202833;
+    text-align: center;
+    color: #fafafa;
+}
+
+.container {
+    position: absolute;
+    height: 300pt;
+    width: 300pt;
+    border: 30px solid #D5DBDB  ;
+    border-radius: 50%;
+    margin: auto;
+    box-shadow: 0 0 30px black;
+    background:#263238;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.reflection {
+    position: absolute;
+    height: 325pt;
+    width: 325pt;
+    opacity: 0.6;
+    background:#546E7A;
+    top: 35%;
+    left: 35%;
+    transform: rotate(45deg);
+}
+
+.hours {
+    position: absolute;
+    height: 85pt;
+    width: 10px;
+    background:#27AE61;
+    transform: rotate(90deg);
+    transform-origin: bottom;
+    top: 21%;
+}
+
+.mins {
+    position: absolute;
+    height: 115pt;
+    width: 10px;
+    background:#FEB737;
+    transform-origin: bottom;
+    top: 12%;
+}
+
+.secs{
+    position: absolute;
+    height: 135pt;
+    width: 10px;
+    background:#DC543E;
+    transform-origin: bottom;
+    top: 5%;
+    transform: rotate(-45deg);
+}
+
+.cover{
+    position: absolute;
+    height: 15pt;
+    width: 15pt;
+    background:#000;
+    border-radius: 50%;
+}
+
+a {
+    color: #fafafa;
+    transition: linear 0.3s;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+a, a:hover {
+    text-decoration: none;
+}
+
+/*added css*/
+#h, #dig, #ana{
+    width: fill-content;
+    height: fill-content;
+}

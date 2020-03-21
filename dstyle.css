@@ -1,0 +1,19 @@
+body {
+	background-color: #202833;
+	text-align: center;
+	color: #fafafa;
+}
+
+
+
+a {
+	color: #fafafa;
+	transition: linear 0.3s;
+}
+
+a:hover {
+	opacity: 0.8;
+}
+a, a:hover {
+	text-decoration: none;
+}
